@@ -1,3 +1,4 @@
+/* Remove hash symbols from headings */
 .post-title h1::before,
 .post-title h2::before,
 h1::before,
@@ -5,4 +6,84 @@ h2::before,
 h3::before,
 h4::before {
   content: "" !important;
+}
+
+/* Animated background beam effect */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  background: linear-gradient(
+    125deg,
+    transparent 0%,
+    transparent 40%,
+    rgba(0, 255, 170, 0.03) 45%,
+    rgba(0, 255, 170, 0.06) 50%,
+    rgba(0, 255, 170, 0.03) 55%,
+    transparent 60%,
+    transparent 100%
+  );
+  background-size: 200% 200%;
+  animation: beamMove 8s ease-in-out infinite;
+}
+
+/* Second beam layer for depth */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    transparent 35%,
+    rgba(0, 170, 255, 0.02) 40%,
+    rgba(0, 170, 255, 0.05) 50%,
+    rgba(0, 170, 255, 0.02) 60%,
+    transparent 65%,
+    transparent 100%
+  );
+  background-size: 200% 200%;
+  animation: beamMove2 12s ease-in-out infinite;
+}
+
+@keyframes beamMove {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes beamMove2 {
+  0% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+/* Subtle grid pattern overlay */
+body {
+  background-image: 
+    linear-gradient(rgba(0, 255, 170, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 170, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
 }
