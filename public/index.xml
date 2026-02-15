@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Insights by Vidur</title>
+    <title>Home on Insights by Vidur</title>
     <link>http://localhost:1313/insights-by-vidur/</link>
-    <description>Recent content on Insights by Vidur</description>
+    <description>Recent content in Home on Insights by Vidur</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
