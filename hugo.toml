@@ -1,4 +1,4 @@
-baseurl = "https://github.com/vidur1997/insights-by-vidur"
+baseurl = "https://vidur1997.github.io/insights-by-vidur/"
 languageCode = "en-gb"
 theme = "terminal"
 pagination.pagerSize = 5
