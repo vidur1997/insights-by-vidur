@@ -1,0 +1,63 @@
+baseurl = "https://github.com/vidur1997/insights-by-vidur"
+languageCode = "en-gb"
+theme = "terminal"
+pagination.pagerSize = 5
+
+[markup.highlight]
+  noClasses = false
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 4
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  autoCover = true
+  readingTime = true
+  Toc = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Insights by Vidur"
+
+    [languages.en.params]
+      subtitle = "Strategy & Analytics Professional"
+      owner = "Vidur Sharma"
+      keywords = "analytics, strategy, consulting, data, SQL, Python"
+      copyright = "Vidur Sharma"
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "~/insights-by-vidur"
+        logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "resume"
+        name = "Resume"
+        url = "/resume"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "research"
+        name = "Research"
+        url = "/research"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/posts"
+        weight = 4
