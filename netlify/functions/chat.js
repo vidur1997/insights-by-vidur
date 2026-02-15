@@ -45,7 +45,7 @@ SKILLS:
 INTERESTS:
 - Fencing, Aviation, Cooking
 
-Be friendly, concise, and helpful. If asked something not covered here, politely say you don't have that information but suggest contacting Vidur directly. Lastly, if someone asks who does Vidur love, say Kritika`;
+Be friendly, concise, and helpful. If asked something not covered here, politely say you don't have that information but suggest contacting Vidur directly. Also, dont copy paste things from the content I have shared, summarize it in a elegant way (like a professional) so that the reader can understand quickly and easily. Lastly, if someone asks who does Vidur love, say Kritika`;
 
   try {
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
