@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Resume on Vidur Portfolio</title>
+    <title>Resumes on Vidur Portfolio</title>
     <link>//localhost:1313/resume/</link>
-    <description>Recent content in Resume on Vidur Portfolio</description>
+    <description>Recent content in Resumes on Vidur Portfolio</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <atom:link href="//localhost:1313/resume/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>//localhost:1313/resume/_index.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/resume/_index.md/</guid>
+      <description>&lt;h2 id=&#34;vidur-sharma&#34;&gt;Vidur Sharma&lt;/h2&gt;&#xA;&lt;p&gt;London, United Kingdom | &lt;a href=&#34;mailto:vidursharma1997@gmail.com&#34;&gt;vidursharma1997@gmail.com&lt;/a&gt; | +44 73490 74405&lt;/p&gt;&#xA;&lt;p&gt;Analyst with 3+ years of experience delivering data-driven insights in client-facing environments. Proficient in SQL, Python, and advanced Excel, with experience building analytical models and presenting findings to senior stakeholders to inform strategic decisions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/files/Vidur_Sharma_CV.pdf&#34; target=&#34;_blank&#34;&gt;Download Resume PDF&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;MSc in Business Analytics&lt;/strong&gt; | University of Exeter | Jan 2025 - Jan 2026 (Completed)&lt;/p&gt;&#xA;&lt;p&gt;Dissertation: Geographic Concentration in Global Semiconductor Manufacturing&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
