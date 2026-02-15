@@ -1,0 +1,8 @@
+.post-title h1::before,
+.post-title h2::before,
+h1::before,
+h2::before,
+h3::before,
+h4::before {
+  content: "" !important;
+}
