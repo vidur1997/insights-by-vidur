@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Insights by Vidur</title>
-    <link>http://localhost:1313/insights-by-vidur/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Insights by Vidur</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/insights-by-vidur/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Approach Market Sizing</title>
-      <link>http://localhost:1313/insights-by-vidur/posts/market-sizing.md/</link>
+      <link>//localhost:1313/posts/market-sizing.md/</link>
       <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights-by-vidur/posts/market-sizing.md/</guid>
+      <guid>//localhost:1313/posts/market-sizing.md/</guid>
       <description>&lt;p&gt;Market sizing is one of the most fundamental consulting skills. Here is my approach.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-framework&#34;&gt;The Framework&lt;/h2&gt;&#xA;&lt;p&gt;I typically use a combination of top-down and bottom-up approaches.&lt;/p&gt;&#xA;&lt;h3 id=&#34;top-down&#34;&gt;Top-Down&lt;/h3&gt;&#xA;&lt;p&gt;Start with the total addressable market and narrow down:&lt;/p&gt;&#xA;&lt;p&gt;Total Market then Segment then Geography then Target Customers&lt;/p&gt;&#xA;&lt;h3 id=&#34;bottom-up&#34;&gt;Bottom-Up&lt;/h3&gt;&#xA;&lt;p&gt;Build up from unit economics:&lt;/p&gt;&#xA;&lt;p&gt;Price x Volume x Customers = Market Size&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;key-principles&#34;&gt;Key Principles&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Triangulate - Use multiple methods and cross-check&lt;/li&gt;&#xA;&lt;li&gt;Document assumptions - Make them explicit and defensible&lt;/li&gt;&#xA;&lt;li&gt;Sensitivity analysis - Test what happens if you are wrong&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;&#xA;&lt;p&gt;In my recent project at Blackmont Consulting, I sized a £400M sector using:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/insights-by-vidur/posts/_index.md/</link>
+      <link>//localhost:1313/posts/_index.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights-by-vidur/posts/_index.md/</guid>
+      <guid>//localhost:1313/posts/_index.md/</guid>
       <description>&lt;p&gt;Thoughts on analytics, strategy, and consulting.&lt;/p&gt;</description>
     </item>
   </channel>

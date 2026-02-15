@@ -7,9 +7,10 @@ pagination.pagerSize = 5
   noClasses = false
 
 [params]
-  contentTypeName = "posts"
+  contentTypeName = "none"
   showMenuItems = 4
   showLanguageSelector = false
+  showLastUpdated = false
   fullWidthTheme = false
   centerTheme = true
   autoCover = true

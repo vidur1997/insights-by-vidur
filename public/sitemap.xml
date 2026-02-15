@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/insights-by-vidur/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2026-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/insights-by-vidur/posts/market-sizing.md/</loc>
+    <loc>//localhost:1313/posts/market-sizing.md/</loc>
     <lastmod>2026-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/insights-by-vidur/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2026-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/insights-by-vidur/posts/_index.md/</loc>
+    <loc>//localhost:1313/posts/_index.md/</loc>
   </url><url>
-    <loc>http://localhost:1313/insights-by-vidur/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/insights-by-vidur/research/_index.md/</loc>
+    <loc>//localhost:1313/research/_index.md/</loc>
   </url><url>
-    <loc>http://localhost:1313/insights-by-vidur/research/</loc>
+    <loc>//localhost:1313/research/</loc>
   </url><url>
-    <loc>http://localhost:1313/insights-by-vidur/resume/</loc>
+    <loc>//localhost:1313/resume/</loc>
   </url><url>
-    <loc>http://localhost:1313/insights-by-vidur/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

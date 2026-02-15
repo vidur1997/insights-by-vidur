@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Insights by Vidur</title>
-    <link>http://localhost:1313/insights-by-vidur/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content in Home on Insights by Vidur</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/insights-by-vidur/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Approach Market Sizing</title>
-      <link>http://localhost:1313/insights-by-vidur/posts/market-sizing.md/</link>
+      <link>//localhost:1313/posts/market-sizing.md/</link>
       <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights-by-vidur/posts/market-sizing.md/</guid>
+      <guid>//localhost:1313/posts/market-sizing.md/</guid>
       <description>&lt;p&gt;Market sizing is one of the most fundamental consulting skills. Here is my approach.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-framework&#34;&gt;The Framework&lt;/h2&gt;&#xA;&lt;p&gt;I typically use a combination of top-down and bottom-up approaches.&lt;/p&gt;&#xA;&lt;h3 id=&#34;top-down&#34;&gt;Top-Down&lt;/h3&gt;&#xA;&lt;p&gt;Start with the total addressable market and narrow down:&lt;/p&gt;&#xA;&lt;p&gt;Total Market then Segment then Geography then Target Customers&lt;/p&gt;&#xA;&lt;h3 id=&#34;bottom-up&#34;&gt;Bottom-Up&lt;/h3&gt;&#xA;&lt;p&gt;Build up from unit economics:&lt;/p&gt;&#xA;&lt;p&gt;Price x Volume x Customers = Market Size&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;key-principles&#34;&gt;Key Principles&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Triangulate - Use multiple methods and cross-check&lt;/li&gt;&#xA;&lt;li&gt;Document assumptions - Make them explicit and defensible&lt;/li&gt;&#xA;&lt;li&gt;Sensitivity analysis - Test what happens if you are wrong&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;&#xA;&lt;p&gt;In my recent project at Blackmont Consulting, I sized a £400M sector using:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/insights-by-vidur/posts/_index.md/</link>
+      <link>//localhost:1313/posts/_index.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights-by-vidur/posts/_index.md/</guid>
+      <guid>//localhost:1313/posts/_index.md/</guid>
       <description>&lt;p&gt;Thoughts on analytics, strategy, and consulting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/insights-by-vidur/research/_index.md/</link>
+      <link>//localhost:1313/research/_index.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/insights-by-vidur/research/_index.md/</guid>
+      <guid>//localhost:1313/research/_index.md/</guid>
       <description>&lt;h2 id=&#34;research-and-projects&#34;&gt;Research and Projects&lt;/h2&gt;&#xA;&lt;p&gt;A collection of my analytical work and strategic projects.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;academic-research&#34;&gt;Academic Research&lt;/h2&gt;&#xA;&lt;h3 id=&#34;geographic-concentration-in-global-semiconductor-manufacturing&#34;&gt;Geographic Concentration in Global Semiconductor Manufacturing&lt;/h3&gt;&#xA;&lt;p&gt;Python, SQL | 2025-2026&lt;/p&gt;&#xA;&lt;p&gt;Analysed the $500B global semiconductor market to assess supply chain concentration risk for corporate and government decision-makers.&lt;/p&gt;&#xA;&lt;p&gt;Key Findings:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Despite $95B in government subsidies, market concentration increased&lt;/li&gt;&#xA;&lt;li&gt;Taiwan&amp;rsquo;s 31% market share represents an irreplaceable ecosystem&lt;/li&gt;&#xA;&lt;li&gt;US manufacturing costs 56% more than Taiwan equivalents&lt;/li&gt;&#xA;&lt;li&gt;Ecosystem factors (talent, suppliers, infrastructure) matter more than subsidies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;consulting-projects&#34;&gt;Consulting Projects&lt;/h2&gt;&#xA;&lt;h3 id=&#34;market-entry-strategy--blackmont-consulting&#34;&gt;Market Entry Strategy | Blackmont Consulting&lt;/h3&gt;&#xA;&lt;p&gt;£400M Sector Analysis | 2025&lt;/p&gt;</description>
     </item>
   </channel>
