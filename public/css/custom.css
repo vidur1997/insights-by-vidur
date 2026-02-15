@@ -91,21 +91,40 @@ body {
 @media (max-width: 768px) {
   .menu {
     display: block !important;
+    margin-top: 10px;
   }
   
   .menu__inner {
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 8px 15px;
     padding: 10px 0;
+    list-style: none;
   }
   
   .menu__inner li {
     margin: 0;
+    display: inline-block !important;
+  }
+  
+  .menu__inner li a {
+    font-size: 14px;
   }
   
   .menu__sub-inner {
-    display: block;
+    display: none !important;
+  }
+  
+  .menu__sub-inner-more {
+    display: none !important;
+  }
+  
+  span.menu__trigger {
+    display: none !important;
+  }
+  
+  .logo {
+    text-align: center;
   }
 }
