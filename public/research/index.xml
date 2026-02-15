@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Researches on Insights by Vidur</title>
+    <title>Researches on Vidur Portfolio</title>
     <link>//localhost:1313/research/</link>
-    <description>Recent content in Researches on Insights by Vidur</description>
+    <description>Recent content in Researches on Vidur Portfolio</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <atom:link href="//localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />

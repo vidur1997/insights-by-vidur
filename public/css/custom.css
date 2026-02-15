@@ -87,3 +87,25 @@ body {
     linear-gradient(90deg, rgba(0, 255, 170, 0.03) 1px, transparent 1px);
   background-size: 50px 50px;
 }
+/* Mobile menu fix */
+@media (max-width: 768px) {
+  .menu {
+    display: block !important;
+  }
+  
+  .menu__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .menu__inner li {
+    margin: 0;
+  }
+  
+  .menu__sub-inner {
+    display: block;
+  }
+}

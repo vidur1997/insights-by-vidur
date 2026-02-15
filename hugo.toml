@@ -6,6 +6,11 @@ pagination.pagerSize = 5
 [markup.highlight]
   noClasses = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   contentTypeName = "none"
   showMenuItems = 4
@@ -20,14 +25,14 @@ pagination.pagerSize = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Insights by Vidur"
+    title = "Vidur Portfolio"
 
     [languages.en.params]
       subtitle = "Strategy & Analytics Professional"
       owner = "Vidur Sharma"
       keywords = "analytics, strategy, consulting, data, SQL, Python"
       copyright = "Vidur Sharma"
-      menuMore = "Show more"
+      menuMore = "Menu"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
       newerPosts = "Newer posts"
@@ -37,9 +42,9 @@ pagination.pagerSize = 5
       minuteReadingTime = "min read"
       words = "words"
 
-      [languages.en.params.logo]
-        logoText = "~/insights-by-vidur"
-        logoHomeLink = "/"
+    [languages.en.params.logo]
+      logoText = "~/vidur-portfolio"
+      logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -62,7 +67,3 @@ pagination.pagerSize = 5
         name = "Blog"
         url = "/posts"
         weight = 4
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
