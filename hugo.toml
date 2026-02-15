@@ -13,7 +13,7 @@ pagination.pagerSize = 5
 
 [params]
   contentTypeName = "none"
-  showMenuItems = 4
+  showMenuItems = 3
   showLanguageSelector = false
   showLastUpdated = false
   fullWidthTheme = false
@@ -62,8 +62,4 @@ pagination.pagerSize = 5
         name = "Research"
         url = "/research"
         weight = 3
-      [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "/posts"
-        weight = 4
+    
