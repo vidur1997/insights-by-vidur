@@ -221,9 +221,10 @@
   flex: 1;
   padding: 15px;
   font-family: 'Fira Code', 'Courier New', monospace;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #00ffaa;
-  white-space: pre-wrap;
+  white-space: pre;
+  overflow-x: auto;
   overflow-y: auto;
 }
 
@@ -258,4 +259,19 @@
   .code-editor {
     height: 200px;
   }
+}
+/* Override container width for code playground */
+.code-playground {
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  margin-right: -20px;
+  max-width: none;
+}
+
+.code-editor {
+  font-size: 0.8rem;
+}
+
+.code-output {
+  font-size: 0.75rem;
 }

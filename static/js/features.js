@@ -160,9 +160,8 @@
       'Europe        | 2024 | 540            | 510       | 5.88%',
       '',
       '',
-      'Key Insight: China shows 18.3% YoY capacity growth',
-      'despite export controls, indicating aggressive domestic', 
-      'investment in mature nodes.'
+      'Key Insight: China shows 18.3% YoY capacity growth despite export controls, indicating aggressive', 
+      'domestic investment in mature nodes.'
     ].join('\n');
     var examples = {
       python: { code: pythonCode, output: pythonOutput },
