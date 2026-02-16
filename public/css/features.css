@@ -1,0 +1,258 @@
+/* Contact Form Styles */
+.contact-form {
+  max-width: 500px;
+  margin: 30px 0;
+}
+
+.contact-form p {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  color: #00ffaa;
+  font-size: 0.9rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #00ffaa;
+  box-shadow: 0 0 10px rgba(0, 255, 170, 0.2);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #666;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #00ffaa, #00aaff);
+  color: #1a1a1a;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(0, 255, 170, 0.3);
+}
+
+/* Skills Section Styles */
+.skills-section {
+  margin: 40px 0;
+}
+
+.skill-category {
+  margin-bottom: 30px;
+}
+
+.skill-category h4 {
+  color: #00ffaa;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.skill-item {
+  margin-bottom: 15px;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.skill-name {
+  color: #fff;
+}
+
+.skill-percent {
+  color: #00ffaa;
+}
+
+.skill-bar {
+  height: 8px;
+  background: #333;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(90deg, #00ffaa, #00aaff);
+  border-radius: 4px;
+  width: 0;
+  transition: width 1.5s ease-out;
+}
+
+/* Animation trigger class */
+.skill-progress.animate {
+  /* Width set via inline style */
+}
+
+/* Code Playground Styles */
+.code-playground {
+  background: #0d0d0d;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin: 30px 0;
+  overflow: hidden;
+}
+
+.playground-header {
+  background: #1a1a1a;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.playground-title {
+  color: #00ffaa;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.playground-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.playground-dots span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.dot-red { background: #ff5f56; }
+.dot-yellow { background: #ffbd2e; }
+.dot-green { background: #27ca40; }
+
+.playground-tabs {
+  display: flex;
+  gap: 5px;
+}
+
+.tab-btn {
+  background: #333;
+  border: none;
+  color: #888;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.tab-btn.active {
+  background: #00ffaa;
+  color: #1a1a1a;
+}
+
+.tab-btn:hover:not(.active) {
+  background: #444;
+  color: #fff;
+}
+
+.playground-body {
+  display: flex;
+  min-height: 300px;
+}
+
+.code-input-section {
+  flex: 1;
+  border-right: 1px solid #333;
+}
+
+.code-output-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.code-editor {
+  width: 100%;
+  height: 250px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.9rem;
+  padding: 15px;
+  resize: none;
+  outline: none;
+}
+
+.output-header {
+  background: #1a1a1a;
+  padding: 8px 15px;
+  font-size: 0.8rem;
+  color: #888;
+  border-bottom: 1px solid #333;
+}
+
+.code-output {
+  flex: 1;
+  padding: 15px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.85rem;
+  color: #00ffaa;
+  white-space: pre-wrap;
+  overflow-y: auto;
+}
+
+.run-btn {
+  background: #00ffaa;
+  color: #1a1a1a;
+  border: none;
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.run-btn:hover {
+  background: #00eeaa;
+  transform: scale(1.05);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .playground-body {
+    flex-direction: column;
+  }
+  
+  .code-input-section {
+    border-right: none;
+    border-bottom: 1px solid #333;
+  }
+  
+  .code-editor {
+    height: 200px;
+  }
+}

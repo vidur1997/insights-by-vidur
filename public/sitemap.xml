@@ -15,6 +15,8 @@
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
+    <loc>//localhost:1313/contact/</loc>
+  </url><url>
     <loc>//localhost:1313/research/</loc>
   </url><url>
     <loc>//localhost:1313/resume/</loc>
