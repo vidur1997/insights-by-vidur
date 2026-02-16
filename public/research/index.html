@@ -108,13 +108,47 @@ METRIC 2022 2024 CHANGE ------ ---- ---- ------ Top 3 Producers Market Share 79.
 <link rel="stylesheet" href="/css/custom.css">
 <link rel="stylesheet" href="/css/chat.css">
 <script src="/js/chat.js" defer></script>
+<link rel="stylesheet" href="/css/loading.css">
 
 </head>
 <body>
 
+<div class="loading-screen" id="loadingScreen">
+    <canvas class="matrix-canvas" id="matrixCanvas"></canvas>
+    <div class="loading-terminal">
+        <div class="terminal-header">vidur@portfolio ~ </div>
+        <div class="loading-line" id="line1">
+            <span><span class="prompt">></span> <span class="line-text">Initializing portfolio...</span></span>
+        </div>
+        <div class="loading-line" id="line2">
+            <span><span class="prompt">></span> <span class="line-text">Loading Strategy</span></span>
+            <span class="progress-container">
+                <span class="progress-dots" id="dots1"></span>
+                <span class="progress-value" id="val1">0%</span>
+            </span>
+        </div>
+        <div class="loading-line" id="line3">
+            <span><span class="prompt">></span> <span class="line-text">Loading Analytics</span></span>
+            <span class="progress-container">
+                <span class="progress-dots" id="dots2"></span>
+                <span class="progress-value" id="val2">0%</span>
+            </span>
+        </div>
+        <div class="loading-line" id="line4">
+            <span><span class="prompt">></span> <span class="line-text">Loading Insights</span></span>
+            <span class="progress-container">
+                <span class="progress-dots" id="dots3"></span>
+                <span class="progress-value" id="val3">0%</span>
+            </span>
+        </div>
+        <div class="loading-line ready-line" id="line5">
+            <span><span class="prompt">></span> <span class="line-text">System ready.</span><span class="cursor"></span></span>
+        </div>
+    </div>
+</div>
+
 
 <div class="container center">
-
   <header class="header">
   <div class="header__inner">
     <div class="header__logo">
@@ -175,7 +209,6 @@ METRIC 2022 2024 CHANGE ------ ---- ---- ------ Top 3 Producers Market Share 79.
 
   
 </header>
-
 
   <div class="content">
     
@@ -437,7 +470,6 @@ Tableau             Proficient     Data visualisation
 </article>
 
   </div>
-
   
     <footer class="footer">
   <div class="footer__inner">
@@ -449,5 +481,6 @@ Tableau             Proficient     Data visualisation
   
 </div>
 
+<script src="/js/loading.js"></script>
 </body>
 </html>
