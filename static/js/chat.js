@@ -57,12 +57,11 @@ document.addEventListener('DOMContentLoaded', function() {
     messages.scrollTop = messages.scrollHeight;
     
     try {
-      fetch('https://vidur-chat.vidursharma1997.workers.dev', {
+      const response = await fetch('https://vidur-chat.vidursharma1997.workers.dev', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message })
       });
-      
       const data = await response.json();
       
       // Remove typing indicator
