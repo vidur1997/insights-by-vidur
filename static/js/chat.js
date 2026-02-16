@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
     messages.scrollTop = messages.scrollHeight;
     
     try {
-      const response = await fetch('/.netlify/functions/chat', {
+      fetch('https://vidur-chat.vidursharma1997.workers.dev', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message })
