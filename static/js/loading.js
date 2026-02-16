@@ -84,16 +84,15 @@
     });
   }
 
-  async function run() {
-    // Increased delays for longer animation (~4 seconds more)
-    await showLine('line1', 500);
-    await showLine('line2', 600);
-    await animateProgress('dots1', 'val1', 1200);
-    await showLine('line3', 400);
-    await animateProgress('dots2', 'val2', 1000);
-    await showLine('line4', 400);
-    await animateProgress('dots3', 'val3', 1000);
-    await showLine('line5', 500);
+async function run() {
+    await showLine('line1', 300);
+    await showLine('line2', 400);
+    await animateProgress('dots1', 'val1', 800);
+    await showLine('line3', 250);
+    await animateProgress('dots2', 'val2', 700);
+    await showLine('line4', 250);
+    await animateProgress('dots3', 'val3', 700);
+    await showLine('line5', 300);
 
     setTimeout(() => {
       matrixRunning = false;
