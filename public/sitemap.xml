@@ -17,6 +17,8 @@
   </url><url>
     <loc>//localhost:1313/contact/</loc>
   </url><url>
+    <loc>//localhost:1313/success/</loc>
+  </url><url>
     <loc>//localhost:1313/research/</loc>
   </url><url>
     <loc>//localhost:1313/resume/</loc>

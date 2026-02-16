@@ -4,11 +4,15 @@ title: "Message Sent"
 
 layout: "single"
 
+toc: false
+
+readingTime: false
+
 ---
 
 
 
-\## Thank You!
+Thank You!
 
 
 
