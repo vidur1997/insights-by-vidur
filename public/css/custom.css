@@ -88,43 +88,33 @@ body {
   background-size: 50px 50px;
 }
 /* Mobile menu fix */
-@media (max-width: 768px) {
-  .menu {
-    display: block !important;
-    margin-top: 10px;
+@media (max-width: 684px) {
+  .menu--desktop {
+    display: flex !important;
   }
   
-  .menu__inner {
-    display: flex !important;
+  .menu--mobile .menu__trigger {
+    display: none !important;
+  }
+  
+  .navigation-menu__inner {
+    flex-direction: row !important;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px 15px;
-    padding: 10px 0;
-    list-style: none;
+    gap: 5px 15px;
   }
   
-  .menu__inner li {
-    margin: 0;
-    display: inline-block !important;
+  .navigation-menu__inner li {
+    margin: 0 !important;
+    padding: 5px !important;
   }
   
-  .menu__inner li a {
-    font-size: 14px;
-  }
-  
-  .menu__sub-inner {
-    display: none !important;
-  }
-  
-  .menu__sub-inner-more {
-    display: none !important;
-  }
-  
-  span.menu__trigger {
-    display: none !important;
+  .navigation-menu {
+    flex-direction: column;
+    align-items: center;
   }
   
   .logo {
-    text-align: center;
+    margin-bottom: 10px;
   }
 }

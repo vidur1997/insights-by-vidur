@@ -1,5 +1,6 @@
 ---
 title: "Resume"
+layout: "single"
 ---
 
 ## Vidur Sharma
