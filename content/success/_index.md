@@ -16,9 +16,9 @@ Thank You!
 
 
 
-Your message has been sent successfully. I'll get back to you as soon as possible.
+Your message has been sent successfully. I will get back to you as soon as possible.
 
 
 
-<a href="/">← Back to Home</a>
+<a href="/">Back to Home</a>
 
