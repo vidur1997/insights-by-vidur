@@ -7,7 +7,7 @@ layout: "single"
 
 Interested in discussing opportunities, collaborations, or just want to connect? Send me a message.
 
-<form name="contact" method="POST" action="/success/" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+<form name="contact" method="POST" class="contact-form" id="contactForm">
   <input type="hidden" name="form-name" value="contact">
   <p class="hidden" style="display:none;">
     <label>Don't fill this out: <input name="bot-field"></label>
@@ -42,3 +42,27 @@ Interested in discussing opportunities, collaborations, or just want to connect?
 ## Other Ways to Connect
 
 <a href="https://www.linkedin.com/in/vidursharma1997/" target="_blank">LinkedIn</a> | <a href="mailto:vidursharma1997@gmail.com">Email</a>
+
+<div id="formSuccess" style="display:none; color: #00ffaa; margin-top: 20px;">
+  <h3>Thank You!</h3>
+  <p>Your message has been sent successfully. I will get back to you as soon as possible.</p>
+</div>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+  
+  try {
+    await fetch('https://formsubmit.co/vidursharma1997@gmail.com', {
+      method: 'POST',
+      body: data
+    });
+    form.style.display = 'none';
+    document.getElementById('formSuccess').style.display = 'block';
+  } catch (error) {
+    alert('Sorry, there was an error. Please try again.');
+  }
+});
+</script>
