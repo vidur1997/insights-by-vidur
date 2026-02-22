@@ -12,6 +12,7 @@ Email
 Company/Organisation
 Message
 Send Message Other Ways to Connect LinkedIn | Email
+Thank You! Your message has been sent successfully. I will get back to you as soon as possible.
 " />
 <meta name="keywords" content="analytics, strategy, consulting, data, SQL, Python" />
 
@@ -85,6 +86,7 @@ Email
 Company/Organisation
 Message
 Send Message Other Ways to Connect LinkedIn | Email
+Thank You! Your message has been sent successfully. I will get back to you as soon as possible.
 " />
 <meta property="og:url" content="//localhost:1313/contact/" />
 <meta property="og:site_name" content="Vidur Portfolio" />
@@ -111,6 +113,11 @@ Send Message Other Ways to Connect LinkedIn | Email
 <link rel="stylesheet" href="/css/loading.css">
 <link rel="stylesheet" href="/css/features.css">
 <script src="/js/features.js" defer></script>
+<link rel="stylesheet" href="/css/chat-notification.css">
+<link rel="stylesheet" href="/css/back-to-top.css">
+<script src="/js/back-to-top.js" defer></script>
+<link rel="stylesheet" href="/css/music-toggle.css">
+<script src="/js/music-toggle.js" defer></script>
 
 </head>
 <body>
@@ -226,7 +233,7 @@ Send Message Other Ways to Connect LinkedIn | Email
   <h1 class="post-title">
     <a href="//localhost:1313/contact/">Contact</a>
   </h1>
-  <div class="post-meta"><span class="post-reading-time">1 min read (34 words)</span></div>
+  <div class="post-meta"><span class="post-reading-time">1 min read (52 words)</span></div>
 
   
   
@@ -249,7 +256,7 @@ Send Message Other Ways to Connect LinkedIn | Email
   <div class="post-content"><div>
         <h2 id="get-in-touch">Get In Touch<a href="#get-in-touch" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Interested in discussing opportunities, collaborations, or just want to connect? Send me a message.</p>
-<form name="contact" method="POST" action="/success/" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+<form name="contact" method="POST" class="contact-form" id="contactForm">
   <input type="hidden" name="form-name" value="contact">
   <p class="hidden" style="display:none;">
     <label>Don't fill this out: <input name="bot-field"></label>
@@ -281,6 +288,28 @@ Send Message Other Ways to Connect LinkedIn | Email
 <hr>
 <h2 id="other-ways-to-connect">Other Ways to Connect<a href="#other-ways-to-connect" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p><a href="https://www.linkedin.com/in/vidursharma1997/" target="_blank">LinkedIn</a> | <a href="mailto:vidursharma1997@gmail.com">Email</a></p>
+<div id="formSuccess" style="display:none; color: #00ffaa; margin-top: 20px;">
+  <h3>Thank You!</h3>
+  <p>Your message has been sent successfully. I will get back to you as soon as possible.</p>
+</div>
+<script>
+document.getElementById('contactForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+  
+  try {
+    await fetch('https://formsubmit.co/vidursharma1997@gmail.com', {
+      method: 'POST',
+      body: data
+    });
+    form.style.display = 'none';
+    document.getElementById('formSuccess').style.display = 'block';
+  } catch (error) {
+    alert('Sorry, there was an error. Please try again.');
+  }
+});
+</script>
 
       </div></div>
 
