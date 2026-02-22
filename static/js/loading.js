@@ -8,7 +8,7 @@
 
   // Start music on first visit during loading animation
   if (isFirstVisit || isReload) {
-    var loadingAudio = new Audio('/audio/kids.mp3');
+    var loadingAudio = new Audio('/audio/Kids.mp3');
     loadingAudio.loop = true;
     loadingAudio.volume = 0.2;
     

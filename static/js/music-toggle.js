@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // If no audio from loading.js, create new one
   if (!audio) {
-    audio = new Audio('/audio/kids.mp3');
+    audio = new Audio('/audio/Kids.mp3');
     audio.loop = true;
     audio.volume = 0.2;
     window.siteAudio = audio;
