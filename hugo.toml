@@ -13,7 +13,7 @@ pagination.pagerSize = 5
 
 [params]
   contentTypeName = "none"
-  showMenuItems = 4
+  showMenuItems = 5
   showLanguageSelector = false
   showLastUpdated = false
   fullWidthTheme = false
@@ -26,7 +26,6 @@ pagination.pagerSize = 5
   [languages.en]
     languageName = "English"
     title = "Vidur Portfolio"
-
     [languages.en.params]
       subtitle = "Strategy & Analytics Professional"
       owner = "Vidur Sharma"
@@ -41,11 +40,9 @@ pagination.pagerSize = 5
       missingBackButtonLabel = "Back to home page"
       minuteReadingTime = "min read"
       words = "words"
-
     [languages.en.params.logo]
       logoText = "~/vidur-portfolio"
       logoHomeLink = "/"
-
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "home"
@@ -63,8 +60,12 @@ pagination.pagerSize = 5
         url = "/research"
         weight = 3
       [[languages.en.menu.main]]
-  	identifier = "contact"
-  	name = "Contact"
-  	url = "/contact"
-  	weight = 4
-    
+        identifier = "dashboard"
+        name = "Dashboard"
+        url = "/dashboard"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+        weight = 5
