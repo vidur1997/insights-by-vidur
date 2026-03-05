@@ -26,5 +26,7 @@
     <loc>//localhost:1313/resume/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/contact/thanks/</loc>
   </url>
 </urlset>

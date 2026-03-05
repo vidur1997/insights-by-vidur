@@ -106,7 +106,7 @@ Built a React-based dashboard with four main sections:
 
 **Client Engagement:** Blackmont Consulting | February 2026
 
-Developed a comprehensive digital marketing and lead generation strategy for an Aberdeen-based bookkeeping firm targeting UK SMEs.
+Developed a comprehensive digital marketing and lead generation strategy for a bookkeeping firm targeting UK SMEs.
 
 **Scope of Work:**
 
