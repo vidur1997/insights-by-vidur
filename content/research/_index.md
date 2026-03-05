@@ -3,286 +3,292 @@ title: "Research"
 layout: "single"
 ---
 
-## Research and Projects
+<style>
+/* Widen research page layout */
+.single .post-content,
+.single .post,
+.single main,
+.single article,
+.post-content,
+article.post {
+  max-width: 100% !important;
+  width: 100% !important;
+}
 
-Selected work demonstrating analytical rigour, strategic thinking, and technical capability.
+.single .container,
+.container {
+  max-width: 1200px !important;
+  width: 100% !important;
+}
 
----
+/* Hide reading time */
+.reading-time,
+.post-info {
+  display: none !important;
+}
 
-## Academic Research
+/* Better code block styling */
+pre {
+  background: rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid #333 !important;
+  border-radius: 8px !important;
+  padding: 15px !important;
+  overflow-x: auto !important;
+  font-size: 0.85rem !important;
+}
 
-### Geographic Concentration in Global Semiconductor Manufacturing
+/* Section spacing */
+h2 {
+  margin-top: 50px !important;
+  padding-top: 20px !important;
+  border-top: 1px solid #333;
+}
 
-**MSc Dissertation** | University of Exeter | 2025-2026
+h3 {
+  color: #00ffaa !important;
+  margin-top: 30px !important;
+}
 
-**Research Question:**
-Why has semiconductor manufacturing become MORE geographically concentrated despite USD 95B in global diversification subsidies?
+/* Project cards */
+.project-highlight {
+  background: rgba(0, 255, 170, 0.08);
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+</style>
 
----
+## Research & Projects
 
-**The Concentration Paradox**
+Selected work demonstrating data analysis, marketing analytics, and strategic thinking.
 
-Despite massive policy interventions (US CHIPS Act, EU Chips Act), market concentration *increased* rather than decreased:
-
-```
-METRIC                              2022        2024        CHANGE
-------                              ----        ----        ------
-Top 3 Producers Market Share        79.2%       83.7%       +4.5%
-Taiwan Global Export Share          31%         31%         Stable
-Taiwan Advanced Logic (3-7nm)       90%         90%         Dominant
-Taiwan Annual Capacity Value        --          $91.6B      --
-```
-
----
-
-**Original Analytical Framework: Dual-Risk Model**
-
-Developed methodology separating Strategic Risk Index (SRI) from Environmental Vulnerability Index (EVI) to explain manufacturer location decisions:
-
-```
-RISK TYPE              CONCENTRATION    KEY INSIGHT
----------              -------------    -----------
-Strategic Risk         84.8%            Firms ACCEPT geopolitical exposure
-                                        for ecosystem access
-                                        
-Environmental Risk     39.6%            Firms AVOID infrastructure and
-                                        natural disaster risk
-
-THE GAP                45.2 pts         Geopolitical risk viewed as
-                                        acceptable trade-off for
-                                        operational efficiency
-```
-
-**Interpretation:** Manufacturers systematically accept geopolitical exposure (Taiwan Strait tensions) because the daily efficiency gains from established ecosystems outweigh the low-probability risk of conflict.
-
----
-
-**10-Year Total Cost of Ownership Analysis**
-
-Built comprehensive TCO model comparing manufacturing economics across regions:
-
-```
-COST CATEGORY          TAIWAN      USA           EUROPE
--------------          ------      ---           ------
-Initial Investment     $20.0B      $22.0B        $21.5B
-                                   (+$2B)        (+$1.5B)
-
-10-Year Labor          $4.5B       $15.75B       $13.5B
-                                   (3.5x)        (3.0x)
-
-Supplier/Coordination  $1.8B       $5.4B         $4.5B
-                                   (3.0x)        (2.5x)
-
-Yield Loss (Waste)     $1.2B       $3.6B         $3.0B
-                                   (3.0x)        (2.5x)
-
-─────────────────────────────────────────────────────────
-TOTAL 10-YEAR COST     $39.5B      $61.75B       $57.9B
-COST PREMIUM           Baseline    +56%          +47%
-```
+<a href="/dashboard/" style="color: #00ffaa; font-weight: bold;">→ View my Live Marketing Analytics Dashboard</a>
 
 ---
 
-**Why Diversification Policies Fail**
+## Marketing Analytics
 
-Identified three structural reasons why USD 95B in subsidies haven't reversed concentration:
+### Multi-Client Marketing Dashboard
 
-**1. Infrastructure vs. Ecosystems**
-Subsidies target infrastructure where it's already excellent. They fail to address 30+ years of supplier networks and process knowledge in Taiwan.
+**Project Type:** Portfolio Project | 2026
 
-**2. Cost Structure Misalignment**
-```
-CHIPS Act Coverage:     25% of initial capital (~$5.5B)
-Capital Share of TCO:   35-40%
+Built an interactive marketing analytics dashboard demonstrating full-funnel campaign analysis across three client verticals.
 
-Result: Subsidies address <10% of total 10-year cost
-```
+**The Challenge:**
+Create a portfolio piece that demonstrates real-world marketing analytics capabilities — not just static charts, but a working tool with filters, multiple data views, and actionable insights.
 
-**3. The Expertise Gap**
+**Solution:**
 
-```
-FACTOR                  TAIWAN          USA/EUROPE
-------                  ------          ----------
-Labor Cost Multiple     1.0x            3.5x
-Supplier Proximity      200+ within     Dispersed
-                        1-hour radius   
-Manufacturing Yield     98%             90-94%
-Yield Cost per 1%       --              $60M additional
-Engineering Graduates   8,000/year      Bottlenecked
-```
+Built a React-based dashboard with four main sections:
 
----
+| Tab | Metrics Tracked |
+|-----|-----------------|
+| **Overview** | Channel mix, performance trends, top campaigns, conversion funnel |
+| **Paid Media** | Spend, impressions, clicks, CTR, CPC, ROAS, demographics |
+| **SEO** | Organic sessions, keyword rankings, traffic trends, technical scores |
+| **Social** | Followers, engagement rate, reach, content performance |
 
-**Post-Subsidy Economics**
+**Key Features:**
+- Working filters (channel, date range) that dynamically update all visualisations
+- Date range scaling (7/30/90 days) with mathematically adjusted metrics
+- Three client datasets (Education, Automotive, Healthcare) with realistic KPIs
+- Conversion funnel visualisation with stage-by-stage drop-off rates
+- CSV export functionality
 
-Even after applying CHIPS Act grants:
+**Technical Stack:** React, Recharts, JavaScript, CSS
 
-```
-US Facility 10-Year Cost (Pre-Subsidy):   $61.75B
-CHIPS Act Grant (25% of CapEx):           -$5.50B
-                                          ────────
-US Facility 10-Year Cost (Post-Subsidy):  $56.25B
-Taiwan 10-Year Cost:                      $39.50B
-                                          ────────
-REMAINING GAP:                            $16.75B
-```
-
-**Conclusion:** One-time capital subsidies cannot overcome perpetual operational disadvantages.
+<a href="/dashboard/" style="color: #00ffaa;">→ View Live Dashboard</a>
 
 ---
 
-**Strategic Recommendations**
+### Lead Generation Strategy 
 
-**For Policymakers:**
-- Shift from 5-year funding cycles to 15-25 year ecosystem development timelines
-- Focus on "technology-appropriate" diversification: mature nodes (28nm+) to new regions while accepting advanced nodes (3nm) will remain concentrated
+**Client Engagement:** Blackmont Consulting | February 2026
 
-**For Industry:**
-- Implement strategic semiconductor reserves (3-6 month buffers)
-- Pursue international production-sharing agreements rather than geographic relocation
+Developed a comprehensive digital marketing and lead generation strategy for an Aberdeen-based bookkeeping firm targeting UK SMEs.
+
+**Scope of Work:**
+
+| Analysis Area | Deliverable |
+|---------------|-------------|
+| Market Sizing | TAM/SAM/SOM analysis (£6.8B → £125M addressable) |
+| Customer Research | 3 detailed personas with pain points and needs |
+| SEO Strategy | Keyword research, 3-pillar approach, technical audit |
+| Paid Media Plan | Facebook + Google Ads strategy with targeting and benchmarks |
+| Lead Funnel | Full awareness → conversion funnel with KPIs |
+| Implementation | 90-day roadmap with budget allocation |
+
+**Key Insights Delivered:**
+
+```
+MARKET OPPORTUNITY
+TAM (UK Bookkeeping)           £6.8B
+SAM (Micro & Small Business)   £2.5B
+SOM (2% Capture)               £125M
+
+PAID MEDIA BENCHMARKS
+Facebook CPL                   £14-22
+Google CPL                     £35-65
+Target ROAS                    3-5x
+```
+
+**Skills Applied:** Market Sizing, Customer Segmentation, SEO Analysis, Paid Media Strategy, Funnel Design
 
 ---
 
-**Technical Implementation:**
+### Market Entry Analysis | Modular Kitchen Hardware
 
-- **Data Sources:** UN Comtrade, World Bank, proprietary cost models
-- **Tools:** Python (pandas, numpy), SQL, Tableau
-- **Analysis:** Trade flow analysis, regression modelling, scenario planning
+**Client Engagement:** Blackmont Consulting | January 2026
 
-**Skills Applied:** Economic Analysis, Financial Modelling, Data Visualisation, Policy Analysis, Strategic Research
-
----
-
-## Strategic Consulting
-
-### Market Entry Strategy | Blackmont Consulting
-
-**Engagement:** Strategic analysis for market entry in a USD 400M+ sector
-
-**Challenge:**
-Client needed to evaluate market opportunity, competitive landscape, and optimal entry strategy for a fragmented B2B market with multiple incumbent players.
+Strategic market analysis for a modular kitchen hardware manufacturer, evaluating the UK market entry.
 
 **Approach:**
 
-1. **Market Sizing** — Built bottom-up and top-down models to validate market opportunity and identify growth trajectories through 2030
-
-2. **Competitive Intelligence** — Analysed 4 major players across 8 dimensions including pricing, distribution, product range, and market positioning
-
-3. **Customer Segmentation** — Developed targeting framework based on customer value potential and acquisition feasibility
-
-4. **Financial Modelling** — Projected Year 1 revenue scenarios with sensitivity analysis on key assumptions
+1. **Market Sizing** — Bottom-up and top-down models validating £400M+ market opportunity
+2. **Competitive Intelligence** — Analysed 4 major players across pricing, distribution, and positioning
+3. **Customer Segmentation** — Developed targeting framework based on value potential
+4. **Financial Modelling** — Year 1 revenue scenarios with sensitivity analysis
 
 **Deliverables:**
 
-- Executive presentation to client leadership
-- Strategic roadmap with 8 prioritised recommendations
-- Go-to-market playbook with phased implementation plan
-
-**Impact:**
-
 ```
-Market Opportunity Identified    USD 1.6B by 2030
+Market Opportunity Identified    £1.6B by 2030
 Competitive Dimensions Analysed  8
 Strategic Recommendations        8
 Revenue Scenarios Modelled       3 (Conservative/Base/Aggressive)
 ```
 
-**Skills Applied:** Market Sizing, Competitive Benchmarking, Customer Segmentation, Financial Modelling, Executive Communication
+**Skills Applied:** Market Sizing, Competitive Benchmarking, Financial Modelling, Executive Presentation
+
+---
+
+## Academic Research
+
+### Geographic Concentration in Semiconductor Manufacturing
+
+**MSc Dissertation** | University of Exeter | 2025-2026
+
+**Research Question:**
+Why has semiconductor manufacturing become MORE geographically concentrated despite $95B in global diversification subsidies?
+
+**The Paradox:**
+
+Despite massive policy interventions (US CHIPS Act, EU Chips Act), market concentration *increased*:
+
+```
+METRIC                              2022        2024        CHANGE
+Top 3 Producers Market Share        79.2%       83.7%       +4.5%
+Taiwan Advanced Logic (3-7nm)       90%         90%         Dominant
+```
+
+**Original Analytical Framework:**
+
+Developed a Dual-Risk Model separating Strategic Risk Index (SRI) from Environmental Vulnerability Index (EVI):
+
+```
+RISK TYPE              CONCENTRATION    INSIGHT
+Strategic Risk         84.8%            Firms ACCEPT geopolitical exposure
+Environmental Risk     39.6%            Firms AVOID infrastructure risk
+THE GAP                45.2 pts         Geopolitical risk = acceptable trade-off
+```
+
+**10-Year Total Cost of Ownership Analysis:**
+
+```
+REGION          TOTAL 10-YR COST     VS TAIWAN
+Taiwan          $39.5B               Baseline
+Europe          $57.9B               +47%
+USA             $61.75B              +56%
+```
+
+**Key Finding:** One-time capital subsidies cannot overcome perpetual operational disadvantages. CHIPS Act covers <10% of total 10-year cost difference.
+
+**Technical Implementation:**
+- **Data Sources:** UN Comtrade, World Bank, proprietary cost models
+- **Tools:** Python (pandas, numpy), SQL, Tableau
+- **Methods:** Trade flow analysis, regression modelling, scenario planning
 
 ---
 
 ## Technical Projects
 
-### AI-Enabled Digital Marketing Platform
+### AI-Enabled Marketing Campaign Generator
 
-**Built with:** Python, OpenAI GPT-4 API, pandas, python-docx
+**Built with:** Python, OpenAI GPT-4 API, pandas
 
 **Problem:**
-Digital marketing campaign planning is manual, time-intensive, and requires coordination across multiple specialists. Small businesses spend less than 1 hour daily on marketing despite recognising it as a key growth opportunity.
+Digital marketing campaign planning is manual and time-intensive. Small businesses spend less than 1 hour daily on marketing despite recognising it as a growth priority.
 
-**Solution Architecture:**
+**Solution:**
+
+Built an AI-powered tool that generates complete marketing campaigns:
 
 ```
-USER INPUT                    AI PROCESSING                 OUTPUT
-    |                              |                           |
-    v                              v                           v
-+----------+    +----------------------------------+    +-------------+
-| Product  |    |  Prompt Engineering Layer        |    | Strategy    |
-| Audience |--->|  - Strategy Generation           |--->| Document    |
-| Platform |    |  - Platform-Specific Content     |    | (Word)      |
-| Budget   |    |  - Creative Ideation             |    +-------------+
-| Duration |    |  - Calendar Automation           |    | Campaign    |
-+----------+    +----------------------------------+    | Calendar    |
-                         |                              | (Excel)     |
-                         v                              +-------------+
-                +------------------+
-                | Quality Checks   |
-                | - Readability    |
-                | - Sentiment      |
-                | - Brand Safety   |
-                +------------------+
+INPUT                    PROCESSING                    OUTPUT
+──────                   ──────────                    ──────
+Product details    →     Prompt engineering     →      Strategy document
+Target audience    →     Platform optimisation  →      Campaign calendar
+Budget & duration  →     Quality checks         →      Content suggestions
 ```
 
-**Key Features:**
-
-- **Multi-Platform Support** — Facebook, Instagram, LinkedIn, Google Ads
-- **Automated Strategy Generation** — AI-generated marketing plans with audience segmentation and messaging frameworks
-- **Platform-Specific Content** — Headlines, descriptions, and creative concepts tailored to each platform's best practices
-- **Quality Assurance** — Built-in readability scoring (Flesch-Kincaid) and sentiment analysis (TextBlob)
-- **Budget Allocation Model** — ML-trained weights based on platform engagement data
-
-**Technical Implementation:**
-
-```python
-# Budget allocation using trained model
-platform_weights = pickle.load('engagement_weights.pkl')
-daily_budget = total_budget / duration
-platform_allocation = {
-    platform: daily_budget * platform_weights[platform]
-    for platform in selected_platforms
-}
-```
+**Features:**
+- Multi-platform support (Facebook, Instagram, LinkedIn, Google Ads)
+- Automated strategy generation with audience segmentation
+- Platform-specific content tailored to best practices
+- Built-in readability scoring and sentiment analysis
+- Budget allocation model based on engagement data
 
 **Results:**
 
 ```
-Campaign Setup Time     Reduced from hours to minutes
-Platforms Supported     4 (Facebook, Instagram, LinkedIn, Google)
-Output Quality Score    Avg. 53+ Flesch Reading Ease
-Sentiment Accuracy      Positive/Neutral tone maintained
+Campaign Setup Time     Hours → Minutes
+Platforms Supported     4
+Output Quality Score    53+ Flesch Reading Ease
 ```
 
-**Skills Applied:** Python, API Integration, Prompt Engineering, NLP, Machine Learning
+**Skills Applied:** Python, API Integration, Prompt Engineering, NLP
 
 ---
 
-## Analytical Toolkit
+## Skills & Tools
 
-**Technical Proficiency:**
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 30px 0;">
 
-```
-SKILL               LEVEL          APPLICATION
------               -----          -----------
-SQL                 Advanced       Complex queries, data pipelines
-Python              Advanced       Analysis, automation, ML
-Excel               Advanced       Financial modelling, dashboards
-Power BI            Proficient     Interactive reporting
-Tableau             Proficient     Data visualisation
-```
+<div>
 
-**Strategic Frameworks:**
+**Data & Analytics**
 
-- Market Sizing (Top-Down and Bottom-Up)
-- Competitive Benchmarking
-- Customer Segmentation
-- Total Cost of Ownership Modelling
-- Scenario Planning
-- Policy Analysis
+| Skill | Level |
+|-------|-------|
+| SQL | Advanced |
+| Python (Pandas, NumPy) | Advanced |
+| Excel | Advanced |
+| Power BI / Tableau / Looker | Proficient |
+| R / SPSS | Intermediate |
+
+</div>
+
+<div>
+
+**Marketing & Business**
+
+| Skill | Level |
+|-------|-------|
+| Google/Facebook Ads | Proficient |
+| Google Analytics / GA4 | Proficient |
+| Market Sizing | Advanced |
+| SEO & Keyword Analysis | Intermediate |
+| Financial Modelling | Proficient |
+
+</div>
+
+</div>
 
 ---
 
 ## Get In Touch
 
-Interested in discussing any of these projects or exploring collaboration opportunities?
+Interested in discussing any of these projects?
 
-<a href="mailto:vidursharma1997@gmail.com">vidursharma1997@gmail.com</a> | <a href="https://www.linkedin.com/in/vidursharma1997/" target="_blank">LinkedIn</a>
+<a href="mailto:vidursharma1997@gmail.com">vidursharma1997@gmail.com</a> | <a href="https://www.linkedin.com/in/vidursharma1997/" target="_blank">LinkedIn</a> | <a href="/contact/">Contact Form</a>

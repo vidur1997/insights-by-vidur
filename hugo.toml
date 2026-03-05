@@ -13,7 +13,7 @@ pagination.pagerSize = 5
 
 [params]
   contentTypeName = "none"
-  showMenuItems = 5
+  showMenuItems = 4
   showLanguageSelector = false
   showLastUpdated = false
   fullWidthTheme = false
@@ -50,22 +50,17 @@ pagination.pagerSize = 5
         url = "/"
         weight = 1
       [[languages.en.menu.main]]
-        identifier = "resume"
-        name = "Resume"
-        url = "/resume"
-        weight = 2
-      [[languages.en.menu.main]]
         identifier = "research"
         name = "Research"
         url = "/research"
-        weight = 3
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "dashboard"
         name = "Dashboard"
         url = "/dashboard"
-        weight = 4
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "contact"
         name = "Contact"
         url = "/contact"
-        weight = 5
+        weight = 4

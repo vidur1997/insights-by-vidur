@@ -118,3 +118,26 @@ body {
     margin-bottom: 10px;
   }
 }
+/* Widen all pages layout */
+.post-content,
+.post,
+main,
+article,
+article.post {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.container,
+.wrapper {
+  max-width: 1200px !important;
+  width: 100% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+/* Ensure content area is wide */
+.content {
+  max-width: 1200px !important;
+  width: 100% !important;
+}
