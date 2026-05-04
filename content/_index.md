@@ -4,8 +4,6 @@ title: ""
 
 ## Vidur Sharma
 
-**Data & Marketing Analyst**
-
 I turn complex data into clear insights that drive business decisions.
 
 ---
